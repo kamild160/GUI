@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp5
+namespace Lista2
 {
+
+    
 
     class Lista
     {
-        int[] tab;
-
+       int[] tab;
 
         public Lista(int k)
         {
@@ -38,83 +39,101 @@ namespace ConsoleApp5
             }
 
         }
-
         public override string ToString()
         {
-
-            String lista = "{ ";
-            for (int i = 0; i < tab.Length - 1; i++)
+            int tabLenght = tab.Length;
+            if (tabLenght < 1) return "[]";
+            if (tabLenght == 1) return "[" + tab[0] + "]";
+            String tmp = "[";
+            for (int i = 0; i < tabLenght - 1; i++)
             {
-                lista += tab[i] + " ";
+                tmp += tab[i] + ", ";
             }
+            tmp += tab[tabLenght - 1] + "]";
+            return tmp;
+        }
 
-            lista += "}";
-            return lista;
+        public int Length
+        {
+            get
+            {
+                return tab.Length;
+            }
+        }
+
+        public int this[int i]
+        {
+            get
+            {
+                if (i < Length) return tab[i];
+                else return 0;
+            }
         }
 
     }
 
-    public class Lista1 : Lista, IComparable<Lista2>
-    
+
+    class Lista1 : Lista, IComparable<Lista1>
     {
-        public Lista1(int size) : base(size) { }
         public Lista1() : base() { }
-        // pokazanie ze ta klasa ma dziedziczyć konstruktory z klasy Lista
-        public int CompareTo(Lista1 that)
+        public Lista1(int n) : base(n) { }
+
+        public int CompareTo(Lista1 other)
         {
-            if (that == this) 
-                return 0;
-
-            else if (that == null) 
+            if (other == null)
                 return 1;
-           
-             for (int i = 0; i < this.tab.Count && i < that.tab.Count; i++)
-            {
-                if (this.tab[i] > that.tab[i])
 
+            for (int i = 0; i < Math.Max(other.Length, Length); i++)
+            {
+                if (other.Length < i)
                     return 1;
 
-                else if (this.tab[i] < that.tab[i])
-
+                if (Length < i)
                     return -1;
+
+                else if (other[i] > this[i])
+                    return -1;
+
+                else if (other[i] < this[i])
+                    return 1;
             }
-
-
-            return that.tab.Count > this.tab.Count ? -1 : 1;
+            return 0;
         }
+
+    }
+
+    class Lista2 : Lista, IComparable<Lista2>
+    {
+        public Lista2() : base() { }
+        public Lista2(int n) : base(n) { }
 
         public int CompareTo(Lista2 other)
         {
-            throw new NotImplementedException();
-        }
-    }
-    public class Lista2 : Lista, IComparable<Lista2>
-    {
-        public Lista2(int size) : base(size) { }
-
-        public Lista2() : base() { }
-
-        public int CompareTo(Lista2 that)
-        {
-
-            if (this.tab.Count > that.tab.Count)
-
+            if (other == null)
                 return 1;
 
-            else if (this.tab.Count < that.tab.Count)
-
-                return -1;
-
-            for (int i = 0; i < that.tab.Count && i < this.tab.Count; i++)
+            if (Length == other.Length)
             {
-                if (this.tab[i] > that.tabi])
-                   
-                     return 1;
+                for (int i = 0; i < Math.Max(other.Length, Length); i++)
+                {
+                    if (other.Length < i)
+                        return 1;
 
-                else if (this.tab[i] < that.tab[i])
-                   
-                     return -1;
+                    if (Length < i)
+                        return -1;
+
+                    else if (other[i] > this[i])
+                        return -1;
+
+                    else if (other[i] < this[i])
+                         return 1;
+                }
             }
+            if (Length > other.Length)
+                return 1;
+
+            else
+                return -1;
         }
     }
 
@@ -123,13 +142,25 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {
             Lista lista = new Lista(5);
-
             Console.Write(lista);
-            Console.ReadKey();
+
+            List<Lista2> l2 = new List<Lista2>();
+            l2.Add(new Lista2(0));
+            for (int i = 0; i < 10; i++)
+            {
+                l2.Add(new Lista2());
+            }
+    
 
 
+            List<Lista1> l1 = new List<Lista1>();
+            l1.Add(new Lista1(0));
+           
 
+
+            Console.Read();
 
         }
+
     }
 }
