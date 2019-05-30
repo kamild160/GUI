@@ -1,0 +1,11 @@
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/obj/Debug/netcoreapp2.1/zad1lista3.csprojAssemblyReference.cache
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/obj/Debug/netcoreapp2.1/zad1lista3.csproj.CoreCompileInputs.cache
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/obj/Debug/netcoreapp2.1/zad1lista3.AssemblyInfoInputs.cache
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/obj/Debug/netcoreapp2.1/zad1lista3.AssemblyInfo.cs
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/bin/Debug/netcoreapp2.1/zad1lista3.deps.json
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/bin/Debug/netcoreapp2.1/zad1lista3.runtimeconfig.json
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/bin/Debug/netcoreapp2.1/zad1lista3.runtimeconfig.dev.json
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/bin/Debug/netcoreapp2.1/zad1lista3.dll
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/bin/Debug/netcoreapp2.1/zad1lista3.pdb
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/obj/Debug/netcoreapp2.1/zad1lista3.dll
+/Users/kamildlutowski/Projects/zad1lista3/zad1lista3/obj/Debug/netcoreapp2.1/zad1lista3.pdb
