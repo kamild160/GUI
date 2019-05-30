@@ -1,0 +1,14 @@
+c:/users/student/source/repos/ConsoleApp10/ConsoleApp10/bin/Debug/ConsoleApp10.exe.config
+c:/users/student/source/repos/ConsoleApp10/ConsoleApp10/bin/Debug/ConsoleApp10.exe
+c:/users/student/source/repos/ConsoleApp10/ConsoleApp10/bin/Debug/ConsoleApp10.pdb
+c:/users/student/source/repos/ConsoleApp10/ConsoleApp10/obj/Debug/ConsoleApp10.csprojResolveAssemblyReference.cache
+c:/users/student/source/repos/ConsoleApp10/ConsoleApp10/obj/Debug/ConsoleApp10.csproj.CoreCompileInputs.cache
+c:/users/student/source/repos/ConsoleApp10/ConsoleApp10/obj/Debug/ConsoleApp10.exe
+c:/users/student/source/repos/ConsoleApp10/ConsoleApp10/obj/Debug/ConsoleApp10.pdb
+/Users/kamildlutowski/Desktop/GUI-master/ConsoleApp10/ConsoleApp10/bin/Debug/ConsoleApp10.exe.config
+/Users/kamildlutowski/Desktop/GUI-master/ConsoleApp10/ConsoleApp10/bin/Debug/ConsoleApp10.exe
+/Users/kamildlutowski/Desktop/GUI-master/ConsoleApp10/ConsoleApp10/bin/Debug/ConsoleApp10.pdb
+/Users/kamildlutowski/Desktop/GUI-master/ConsoleApp10/ConsoleApp10/obj/Debug/ConsoleApp10.csprojAssemblyReference.cache
+/Users/kamildlutowski/Desktop/GUI-master/ConsoleApp10/ConsoleApp10/obj/Debug/ConsoleApp10.csproj.CoreCompileInputs.cache
+/Users/kamildlutowski/Desktop/GUI-master/ConsoleApp10/ConsoleApp10/obj/Debug/ConsoleApp10.exe
+/Users/kamildlutowski/Desktop/GUI-master/ConsoleApp10/ConsoleApp10/obj/Debug/ConsoleApp10.pdb
