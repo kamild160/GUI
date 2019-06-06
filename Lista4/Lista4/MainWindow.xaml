@@ -1,0 +1,44 @@
+﻿<Window x:Class="Lista4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lista4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid MouseMove="OnMouseMove">
+        <Grid x:Name="MainGrid" Margin="10,10,0,0" VerticalAlignment="Top" Grid.RowSpan="100" Grid.ColumnSpan="100" MinWidth="100" MinHeight="100">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle x:Name="Kwadrat" Grid.Column="1" Fill="#FFF4F4F5" HorizontalAlignment="Center" Margin="0" Grid.Row="2" Stroke="Black" VerticalAlignment="Center" Width="130" Height="130"/>
+            <Ellipse x:Name="Kolo" Grid.Column="1" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="130" Margin="18,24,18,25" Grid.Row="2" Stroke="Black" VerticalAlignment="Center" Width="130"/>
+
+            <Label Content='Red:' Margin="10,0,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" Grid.Column="0"/>
+            
+          <TextBox x:Name="red" HorizontalAlignment="Left" Height="23" Margin="126,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="true"/>
+
+            <Label Content='Green:' Margin="10,0,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" Grid.Column="1"/>
+            
+          <TextBox x:Name="green" HorizontalAlignment="Left" Height="23" Margin="126,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="True"/>
+          
+            <Label Content='Blue:' Margin="10,0,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" Grid.Column="2"/>
+           
+          <TextBox x:Name="blue" HorizontalAlignment="Left" Height="23" Margin="126,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="True"/>
+          
+            <Button x:Name="TrybButton" Content="Tryb" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Click="TrybButton_Click" Margin="0,35,0,0"/>
+            <Button x:Name="KwadraturaButton" Content="Kwadratura Kola" Grid.Column="1"  Grid.Row="1" VerticalAlignment="Top" Click="KwadraturaButton_Click" Margin="0,5,0,0"/>
+
+
+        </Grid>
+
+    </Grid>
+</Window>

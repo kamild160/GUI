@@ -1,0 +1,15 @@
+C:\Users\student\source\repos\Lista4\Lista4\bin\Debug\Lista4.exe.config
+C:\Users\student\source\repos\Lista4\Lista4\bin\Debug\Lista4.exe
+C:\Users\student\source\repos\Lista4\Lista4\bin\Debug\Lista4.pdb
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\Lista4.csprojResolveAssemblyReference.cache
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\MainWindow.g.cs
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\App.g.cs
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\Lista4_MarkupCompile.cache
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\Lista4_MarkupCompile.lref
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\MainWindow.baml
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\Lista4.g.resources
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\Lista4.Properties.Resources.resources
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\Lista4.csproj.GenerateResource.Cache
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\Lista4.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\Lista4.exe
+C:\Users\student\source\repos\Lista4\Lista4\obj\Debug\Lista4.pdb
